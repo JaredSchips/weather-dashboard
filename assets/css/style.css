@@ -1,0 +1,79 @@
+body {
+    background-color: #79befb;
+}
+
+nav {
+    position: relative;
+    padding: 0.5em;
+}
+
+#city-search-input {
+    width: 50%;
+    border-radius: 100px;
+    padding: 0.75em;
+    text-align: center;
+    margin: auto;
+}
+
+#city-search-input:focus::placeholder {
+    color: transparent;
+}
+
+#city-search-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0.5em;
+    background-color: var(--bs-primary);
+}
+
+h2, h3 {
+    margin-top: 1em;
+}
+
+#today-card {
+    max-width: 40em;
+}
+
+.dropdown {
+    position: absolute;
+    width: 20%;
+    top: 20%;
+    right: 0;
+}
+
+.dropdown button, .dropdown:hover button {
+    background-color: var(--bs-primary);
+    border: 0px;
+}
+
+#forcasts {
+    display: none;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #79befb;
+}
+
+.card {
+    width: 100%;
+    max-width: 25em;
+    min-width: 10em;
+    background-color: #ffffff94;
+}
+
+#five-day-forcast-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+.long-term-forcast-card {
+    margin: 1em
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+}
